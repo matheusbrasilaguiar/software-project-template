@@ -19,9 +19,9 @@
 ## Getting Started
 
 1. Fork the repository and clone your fork locally.
-2. Create a new branch from `main` following the [Branching Strategy](#branching-strategy).
+2. Create a new branch from `master` following the [Branching Strategy](#branching-strategy).
 3. Make your changes, following the project's conventions.
-4. Open a Pull Request against `main` with a clear description of what was changed and why.
+4. Open a Pull Request against `master` with a clear description of what was changed and why.
 
 ---
 
@@ -31,17 +31,17 @@ This project follows **GitHub Flow** — a lightweight, branch-based workflow.
 
 | Branch type | Pattern | Description |
 |-------------|---------|-------------|
-| Main | `main` | Always deployable. Protected. Direct commits are not allowed. |
+| Main | `master` | Always deployable. Protected. Direct commits are not allowed. |
 | Feature | `feat/<short-description>` | New features or documentation additions |
 | Bug fix | `fix/<short-description>` | Corrections to existing content or behavior |
 | Chore | `chore/<short-description>` | Maintenance tasks, dependency updates, tooling changes |
 | Release | `release/<version>` | Release preparation (if applicable) |
 
 **Rules:**
-- Branch off from `main`.
+- Branch off from `master`.
 - Keep branches short-lived — open a PR as soon as the work is ready for review.
 - Delete the branch after merging.
-- Never commit directly to `main`.
+- Never commit directly to `master`.
 
 ---
 
