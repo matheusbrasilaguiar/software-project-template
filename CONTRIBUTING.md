@@ -38,6 +38,7 @@ This project follows **GitHub Flow** — a lightweight, branch-based workflow.
 | Release | `release/<version>` | Release preparation (if applicable) |
 
 **Rules:**
+
 - Branch off from `master`.
 - Keep branches short-lived — open a PR as soon as the work is ready for review.
 - Delete the branch after merging.
@@ -51,7 +52,7 @@ This project follows the [Conventional Commits](https://www.conventionalcommits.
 
 ### Format
 
-```
+```text
 <type>(<scope>): <short description>
 
 [optional body]
@@ -73,7 +74,7 @@ This project follows the [Conventional Commits](https://www.conventionalcommits.
 
 ### Examples
 
-```
+```text
 feat(docs): add observability document with logging and metrics strategy
 
 fix(diagrams): correct broken link to deployment diagram
@@ -90,12 +91,12 @@ chore: update template version badge to 1.1.0
 
 ## Pull Request Process
 
-1. Make sure your branch is up to date with `main` before opening a PR.
+1. Make sure your branch is up to date with `master` before opening a PR.
 2. Fill in the **Pull Request Template** completely — do not delete sections.
 3. Assign at least one reviewer.
 4. A PR must have **at least one approval** before merging.
 5. All automated checks must pass before merging.
-6. Use **Squash and Merge** to keep the commit history clean on `main`.
+6. Use **Squash and Merge** to keep the commit history clean on `master`.
 
 ---
 

@@ -26,9 +26,9 @@ Closes #<!-- issue number -->
 > Describe the steps needed to verify that this change works correctly.
 > Include any relevant setup, test data, or environment requirements.
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ---
 
