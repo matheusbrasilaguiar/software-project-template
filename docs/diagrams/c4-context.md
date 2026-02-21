@@ -36,3 +36,4 @@ C4Context
 
 > TODO: Add any clarifications or observations about this diagram that are not self-evident from the visual alone.
 > Example: "External System A is a third-party payment provider. The interaction is outbound only — this system initiates all requests."
+

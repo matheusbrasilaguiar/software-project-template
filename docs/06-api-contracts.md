@@ -145,3 +145,4 @@
 
 > TODO: Describe how API deprecation is handled.
 > Example: "Deprecated endpoints are marked with a Deprecation response header. Consumers are notified via changelog and have a minimum of 3 months to migrate before removal."
+

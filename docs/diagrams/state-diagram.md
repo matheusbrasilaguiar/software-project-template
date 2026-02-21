@@ -65,3 +65,4 @@ stateDiagram-v2
 ## [Another Entity Name] States
 
 > TODO: Add additional state diagrams following the same pattern above.
+

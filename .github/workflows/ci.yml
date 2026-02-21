@@ -1,16 +1,16 @@
 # CI — Continuous Integration
 #
-# This workflow runs on every push and pull request to the `main` branch.
+# This workflow runs on every push and pull request to the `master` branch.
 # It validates markdown quality (linting) and checks for broken links.
 #
 # Tools used:
 #   - markdownlint-cli2: enforces markdown style and formatting rules
-#   - markdown-link-check: detects broken links in all markdown files
+#   - lychee: fast, modern link checker
 #
 # To run these checks locally before pushing:
 #   npx markdownlint-cli2 "**/*.md" "#node_modules"
-#   find . -name "*.md" | xargs npx markdown-link-check
-
+#   lychee "**/*.md"
+#
 name: CI
 
 on:
@@ -46,10 +46,17 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check links in markdown files
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        uses: lycheeverse/lychee-action@v2
         with:
-          use-quiet-mode: 'yes'
-          use-verbose-mode: 'no'
-          config-file: '.github/link-check-config.json'
-          folder-path: '.'
-          file-extension: '.md'
+          args: >-
+            --verbose
+            --no-progress
+            --exclude 'TODO'
+            --exclude 'example\.com'
+            --exclude 'your-repo'
+            --exclude 'your-project'
+            --exclude 'localhost'
+            --exclude 'img\.shields\.io'
+            --exclude-mail
+            **/*.md
+          fail: true

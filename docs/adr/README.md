@@ -51,3 +51,4 @@ Each ADR has a status that reflects its current state:
 | ID | Title | Status | Date |
 |----|-------|--------|------|
 | — | *This table should list only accepted ADRs. Copy [001-template.md](001-template.md) to create a new ADR.* | — | — |
+

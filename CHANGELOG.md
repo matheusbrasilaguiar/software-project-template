@@ -56,3 +56,4 @@ When releasing a new version, move the contents of `[Unreleased]` to a new versi
 git tag -a v1.0.0 -m "release: v1.0.0"
 git push origin v1.0.0
 ```
+

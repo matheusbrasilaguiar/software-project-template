@@ -58,3 +58,4 @@ sequenceDiagram
 
 > TODO: Add additional flows following the same pattern above.
 > Suggested flows to document: authentication, main business operation, error handling, background job execution.
+

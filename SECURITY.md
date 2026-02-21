@@ -17,7 +17,7 @@
 
 If you discover a security vulnerability in this project, report it responsibly through one of the following channels:
 
-- **GitHub Private Vulnerability Reporting** *(preferred)*: Use the [Security tab](../../security/advisories/new) of this repository to submit a private advisory.
+- **GitHub Private Vulnerability Reporting** *(preferred)*: Navigate to the **Security** tab of this repository and click **"Report a vulnerability"** to submit a private advisory.
 - **Email** *(alternative)*: Send details to `TODO@example.com`. Use the subject line `[SECURITY] <brief description>`.
 
 ### What to Include in Your Report
@@ -40,3 +40,4 @@ To help us assess and resolve the issue as quickly as possible, please include:
 ## Security Considerations
 
 For the full security posture of this project, including authentication, authorization, data protection, and threat modelling, see the [Security document](docs/07-security.md).
+

@@ -126,3 +126,4 @@
 | ADR-001 | TODO | Proposed / Accepted / Deprecated / Superseded | YYYY-MM-DD |
 
 > Full ADR index: [docs/adr/README.md](adr/README.md)
+

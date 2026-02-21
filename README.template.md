@@ -124,3 +124,4 @@ Full project documentation is available in the [`docs/`](docs/) directory.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+

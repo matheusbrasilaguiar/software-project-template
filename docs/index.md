@@ -24,3 +24,4 @@ For the full project README and template usage instructions, refer to the reposi
 | [Decisions Log](13-decisions-log.md) | Lightweight decisions history |
 | [Glossary](10-glossary.md) | Domain terms and definitions |
 | [References](11-references.md) | External sources and links |
+

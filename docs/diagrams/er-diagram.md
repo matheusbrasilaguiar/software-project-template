@@ -65,3 +65,4 @@ erDiagram
 
 > TODO: Add any clarifications about the data model that are not self-evident from the diagram.
 > Example: "ENTITY_C uses a many-to-many relationship resolved through a join table not shown here for brevity. See the data model document for details."
+

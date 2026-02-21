@@ -53,3 +53,4 @@ C4Deployment
 
 > TODO: Add clarifications about the deployment topology.
 > Example: "The database runs in a private subnet with no public access. The API communicates through a VPC endpoint."
+

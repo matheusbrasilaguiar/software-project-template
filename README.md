@@ -48,7 +48,7 @@
 
 ## Repository Structure
 
-```
+```text
 project-template/
 │
 ├── README.md
@@ -138,3 +138,4 @@ This template follows [Semantic Versioning](https://semver.org) (SemVer):
 Each stable version is tagged in Git (`v1.0.0`, `v1.1.0`, etc.) and documented in [CHANGELOG.md](CHANGELOG.md).
 
 When you create a new project from this template, it is recommended to note which template version was used in your project's README for future reference.
+

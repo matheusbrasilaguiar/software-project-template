@@ -12,13 +12,11 @@ To preview diagrams locally, use a Mermaid-compatible editor such as the Mermaid
 
 Diagrams are embedded in Markdown files using fenced code blocks with the `mermaid` language identifier:
 
-~~~
-```mermaid
+~~~text`n```mermaid
 graph TD
     A[Start] --> B[End]
 ```
-~~~
-
+~~~text`n
 ---
 
 ## Diagram Index
@@ -42,3 +40,4 @@ graph TD
 - Update diagrams whenever the system changes. An outdated diagram is misleading.
 - Add a brief description above each diagram explaining its purpose and what the reader should take away from it.
 - Use consistent naming between diagrams and the rest of the documentation.
+

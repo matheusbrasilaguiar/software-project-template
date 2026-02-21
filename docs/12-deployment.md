@@ -171,3 +171,4 @@
 - Secrets are never stored in the repository.
 - Each environment has its own isolated secret store.
 - Configuration differences between environments are documented in the `.env.example` file.
+

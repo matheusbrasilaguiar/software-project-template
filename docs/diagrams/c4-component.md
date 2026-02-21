@@ -44,3 +44,4 @@ C4Component
 
 > TODO: Add any clarifications about the component boundaries, design decisions, or known limitations visible in this diagram.
 > Example: "Component B acts as an anti-corruption layer. It translates external API responses into internal domain objects before handing them off to Component C."
+

@@ -44,3 +44,4 @@ C4Container
 
 > TODO: Add any clarifications about this diagram.
 > Example: "The Background Worker is triggered by events from the database change stream. It does not expose any HTTP interface."
+
