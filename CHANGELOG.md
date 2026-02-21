@@ -8,35 +8,33 @@ This project adheres to [Semantic Versioning](https://semver.org) and the format
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-02-21
+
 ### Added
 
-- Initial template structure with full `docs/` directory
-- Documentation files: `01-overview`, `02-objectives`, `03-requirements`, `04-architecture`, `05-data-model`, `06-api-contracts`, `07-security`, `08-quality`, `09-observability`, `10-glossary`, `11-references`
-- `docs/12-deployment.md` — Deployment documentation: environments, CI/CD pipeline, release strategy (blue-green/canary/rolling), rollback plan, infrastructure, post-deploy monitoring
-- `docs/13-decisions-log.md` — Lightweight decisions log as an alternative to formal ADRs
-- ADR structure with usage guide (`docs/adr/README.md`) and blank template (`docs/adr/001-template.md`)
-- Diagram templates using Mermaid: C4 Context (L1), C4 Container (L2), C4 Component (L3), Deployment, ER Diagram, Sequence Flows, State Diagram
-- Design documentation placeholder (`docs/design/README.md`)
-- `CONTRIBUTING.md` — Contribution guide: GitHub Flow branching strategy, Conventional Commits convention, pull request process, and code review guidelines
-- `CODE_OF_CONDUCT.md` — Contributor Covenant Code of Conduct (v2.1)
-- `SECURITY.md` — Responsible disclosure policy; detected automatically by GitHub to display the "Report a vulnerability" button
-- `mkdocs.yml` — Optional MkDocs + Material theme config to serve the docs as a website
-- `.env.example` — Documented environment variables with placeholder values for local setup
-- `.markdownlint.json` — Markdownlint configuration tuned for this template's writing style
-- `.github/workflows/ci.yml` — CI workflow: markdown linting and link checking on every push and pull request
-- `.github/link-check-config.json` — Link checker configuration (ignores shields.io badges and TODO placeholders)
-- `docs/index.md` — MkDocs landing page summarising all documentation sections
-- GitHub issue templates: bug report, feature request, task
-- `PULL_REQUEST_TEMPLATE.md`
-- MIT License
-- This CHANGELOG
+- Initial template structure with full `docs/` directory.
+- Comprehensive documentation: Overview, Objectives, Requirements, Architecture, Data Model, API Contracts, Security, Quality, Observability, Glossary, and References.
+- `docs/12-deployment.md` — Complete deployment strategy (CI/CD, release patterns, environment mapping).
+- `docs/13-decisions-log.md` — Lightweight alternative to formal ADRs.
+- Professional ADR system with templates and guide.
+- 7 Mermaid diagram templates: C4 (L1-L3), Deployment, ERD, Sequence, and State.
+- Contribution guidelines (`CONTRIBUTING.md`) with GitHub Flow and Conventional Commits.
+- CI/CD pipeline using `lychee-action` (fast link checking) and `markdownlint-cli2`.
+- GitHub Issue and Pull Request templates.
+- MkDocs configuration for documentation-as-a-website.
 
-### Changed
+### Fixed
 
-- `docs/04-architecture.md` — Deployment Model section links to both the deployment diagram and `12-deployment.md`
-- `docs/diagrams/README.md` — Diagram index includes all 7 diagram types
-- `docs/adr/README.md` — ADR index no longer lists the blank template as an "Accepted" decision
-- `mkdocs.yml` — Fixed `Home` navigation entry from invalid `../README.md` to `index.md`
+- Resolved 60+ CI linting and link checking failures.
+- Fixed broken relative links in `SECURITY.md` and `docs/04-architecture.md`.
+- Corrected placeholder status in ADR template.
+- Normalized master as the default branch across all documentation and workflows.
+- Added `.gitignore` to prevent documentation build artifacts (`site/`) from being committed.
+
+## [1.0.0] - 2026-02-21
+
+### Added
+- Initial project template setup with basic documentation structure.
 
 ---
 

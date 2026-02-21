@@ -1,7 +1,7 @@
 # Project Template
 
 <!-- When releasing a new version of this template, update the badge number below and tag the commit. See CHANGELOG.md for instructions. -->
-[![Template Version](https://img.shields.io/badge/template%20version-1.0.0-blue)](CHANGELOG.md)
+[![Template Version](https://img.shields.io/badge/template%20version-1.1.0-blue)](CHANGELOG.md)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 
