@@ -57,6 +57,5 @@ jobs:
             --exclude 'your-project'
             --exclude 'localhost'
             --exclude 'img\.shields\.io'
-            --exclude-mail
             **/*.md
           fail: true
