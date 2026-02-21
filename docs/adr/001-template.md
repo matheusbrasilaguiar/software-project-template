@@ -4,7 +4,7 @@
 
 > TODO: Set the current status of this decision.
 
-Proposed / Accepted / Deprecated / Superseded by [ADR-NNN](NNN-title.md)
+Proposed / Accepted / Deprecated / Superseded by ADR-NNN
 
 ---
 

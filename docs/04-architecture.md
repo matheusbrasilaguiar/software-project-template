@@ -10,7 +10,7 @@
 
 **Rationale:** TODO
 
-**Related ADR:** [ADR-TODO](adr/TODO.md)
+**Related ADR:** TODO — Link to the ADR once created. See [ADR index](adr/README.md).
 
 ---
 
