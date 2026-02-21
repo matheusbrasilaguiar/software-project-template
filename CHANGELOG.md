@@ -34,6 +34,7 @@ This project adheres to [Semantic Versioning](https://semver.org) and the format
 ## [1.0.0] - 2026-02-21
 
 ### Added
+
 - Initial project template setup with basic documentation structure.
 
 ---
