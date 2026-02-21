@@ -28,9 +28,9 @@ assignees: ''
 
 > Define what "done" looks like for this feature. What conditions must be met for this to be considered complete?
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ## Additional Context
 

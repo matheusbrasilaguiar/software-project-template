@@ -20,18 +20,20 @@ assignees: ''
 > Describe what is included in this task and, if relevant, what is explicitly out of scope.
 
 **In scope:**
-- 
+
+-
 
 **Out of scope:**
-- 
+
+-
 
 ## Acceptance Criteria
 
 > Define what "done" looks like for this task.
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ## Dependencies
 
